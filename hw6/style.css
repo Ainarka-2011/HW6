@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+}
+.container {
+  gap: 40px;
+  display: flex;
+  margin-top: 25vh;
+}
+.trafficLight {
+  width: 150px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: black;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  margin-top: 27px;
+  border-radius: 100vh;
+  background-color: grey;
+}
+.text {
+  width: 150px;
+  height: 350px;
+  display: flex;
+  font-size: 60px;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  background-color: black;
+}
